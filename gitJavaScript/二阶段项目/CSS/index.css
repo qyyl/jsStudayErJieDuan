@@ -1,0 +1,127 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    /*border: 1px solid red;*/
+}
+p{
+    margin-bottom: 0;
+}
+.contenner{
+    width: 1349px;
+    margin: 0 auto;
+}
+/*header*/
+.myHeader{
+    height: 70px;
+    width: 1149px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #5CB0EF;
+}
+.myHeader>div:nth-of-type(1){
+    float: left;
+}
+.myHeader>div:nth-of-type(2){
+    float: right;
+}
+.myHeader>div:nth-of-type(2)>ul{
+    overflow: hidden;
+}
+.myHeader>div:nth-of-type(2)>ul>li{
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    width: 120px;
+    margin-left: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+/*头像*/
+.headPhoto{
+    width: 60px;
+    height: 60px;
+    /*border-radius: 30px;*/
+    overflow: hidden;
+}
+.headPhoto>img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+/*退出按钮*/
+.myHeader>div:nth-of-type(2)>ul>li:last-of-type>button{
+    line-height: 24px;
+    margin-top: 23px;
+}
+.myHeader h1{
+    font-size: 30px;
+    height: 70px;
+    line-height: 70px;
+}
+.myHeader h1 a{
+    color: black;
+    text-decoration: none;
+}
+/*section*/
+.thisSection{
+    overflow: hidden;
+    width: 1149px;
+    margin: 0 auto;
+}
+.thisSection>div{
+    float: left;
+}
+/*sectionLeft*/
+.sectionLeft{
+    width: 210px;
+    height: 725px;
+    overflow: hidden;
+    background-color: #D8D8D8;
+}
+/*一级菜单*/
+.sectionLeft .yiJiUl{
+    margin-top: 30px;
+    color: #5c5c5c;
+}
+.sectionLeft .yiJiUl>li{
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.sectionLeft .yiJiUl li>a{
+    color: #5c5c5c;
+    text-decoration: none;
+}
+/*二级菜单*/
+.sectionLeft .erJiUl{
+    width: 180px;
+    height: 0;
+    margin-left: 30px;
+    transition: all .3s linear;
+}
+.sectionLeft .erJiUl>li{
+    overflow: hidden;
+}
+/*三级菜单*/
+.sectionLeft .sanJiUl{
+    width: 150px;
+    height: 0;
+    margin-left: 30px;
+}
+/*sectionRight*/
+/*面包屑*/
+.breadCrumb{
+    height: 50px;
+    width: 939px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*内联框架*/
+.sectionRight>iframe{
+    width: 939px;
+    height: 639px;
+    background-color: #d2d1c6;
+}
